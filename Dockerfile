@@ -1,5 +1,5 @@
 # Using older Python base image on Debian Buster (known OS-level CVEs)
-FROM python:3.9.7-buster
+FROM python:3.9-bullseye
 
 LABEL maintainer="exam-platform@example.com"
 LABEL service="english-service"
