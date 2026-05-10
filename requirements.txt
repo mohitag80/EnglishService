@@ -55,5 +55,5 @@ urllib3==1.26.8
 # Old paramiko - CVE-2022-24302
 paramiko==2.9.2
 
-# Old setuptools - CVE-2022-40897
-setuptools==57.0.0
+# Old setuptools - CVE-2022-40897 (affects < 65.5.1)
+setuptools==62.3.2
