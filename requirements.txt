@@ -1,8 +1,8 @@
-# Web Framework - older Django with known CVEs
-Django==3.2.12
+# Web Framework - upgraded to fix 19 CVEs
+Django==5.2.8
 
-# REST framework
-djangorestframework==3.13.1
+# REST framework - upgraded to fix 1 CVE
+djangorestframework==3.15.2
 
 # CORS
 django-cors-headers==3.10.1
@@ -10,35 +10,35 @@ django-cors-headers==3.10.1
 # Database
 psycopg2-binary==2.9.3
 
-# Authentication - CVE-2022-29217
-PyJWT==1.7.1
+# Authentication - upgraded to fix 5 CVEs
+PyJWT==2.13.0
 
-# Cryptography - multiple older CVEs
-cryptography==36.0.0
+# Cryptography - upgraded to fix 8 CVEs
+cryptography==300.0.12
 
-# Image handling - multiple CVEs (CVE-2022-22817, CVE-2022-24303)
-Pillow==9.0.0
+# Image handling - upgraded to fix 11 CVEs
+Pillow==27.0.0-beta.2
 
-# SQL parsing - CVE-2023-30608
-sqlparse==0.4.1
+# SQL parsing - upgraded to fix 3 CVEs
+sqlparse==0.5.0
 
-# Template engine
-Jinja2==2.11.3
+# Template engine - upgraded to fix 4 CVEs
+Jinja2==3.1.6
 
-# HTTP requests - CVE-2023-32681
-requests==2.27.1
+# HTTP requests - upgraded to fix 4 CVEs
+requests==2.33.0
 
-# YAML parsing - CVE-2020-14343
+# YAML parsing
 PyYAML==5.4.1
 
-# XML parsing - CVE-2021-43818
-lxml==4.7.1
+# XML parsing - upgraded to fix 2 CVEs
+lxml==6.1.0
 
-# Serialization
-marshmallow==3.14.1
+# Serialization - upgraded to fix 1 CVE
+marshmallow==4.1.2
 
-# Environment variables
-python-dotenv==0.19.2
+# Environment variables - upgraded to fix 1 CVE
+python-dotenv==1.2.2
 
 # Cache
 redis==3.5.3
@@ -49,11 +49,11 @@ django-debug-toolbar==3.2.4
 # Celery for async tasks
 celery==5.2.3
 
-# URL handling - CVE-2021-33503
-urllib3==1.26.8
+# URL handling - upgraded to fix 8 CVEs
+urllib3==2.7.0
 
-# Old paramiko - CVE-2022-24302
-paramiko==2.9.2
+# SSH library - upgraded to fix 2 CVEs
+paramiko==3.4.0
 
-# Old markupsafe - CVE-2021-23727
+# Markup safety
 MarkupSafe==1.1.1

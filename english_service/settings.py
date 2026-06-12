@@ -69,6 +69,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Security settings for Django 5.2
+CSRF_TRUSTED_ORIGINS = []
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
+
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
