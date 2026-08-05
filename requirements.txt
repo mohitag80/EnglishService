@@ -1,59 +1,59 @@
-# Web Framework - older Django with known CVEs
-Django==3.2.12
+# Web Framework - upgraded to address known CVEs
+Django==5.2.8
 
 # REST framework
-djangorestframework==3.13.1
+djangorestframework==3.15.2
 
 # CORS
-django-cors-headers==3.10.1
+django-cors-headers==4.9.0
 
 # Database
-psycopg2-binary==2.9.3
+psycopg2-binary==2.9.10
 
-# Authentication - CVE-2022-29217
-PyJWT==1.7.1
+# Authentication
+PyJWT==2.13.0
 
-# Cryptography - multiple older CVEs
-cryptography==36.0.0
+# Cryptography
+cryptography==46.0.2
 
-# Image handling - multiple CVEs (CVE-2022-22817, CVE-2022-24303)
-Pillow==9.0.0
+# Image handling
+Pillow==11.3.0
 
-# SQL parsing - CVE-2023-30608
-sqlparse==0.4.1
+# SQL parsing
+sqlparse==0.5.3
 
 # Template engine
-Jinja2==2.11.3
+Jinja2==3.1.6
 
-# HTTP requests - CVE-2023-32681
-requests==2.27.1
+# HTTP requests
+requests==2.32.5
 
-# YAML parsing - CVE-2020-14343
-PyYAML==5.4.1
+# YAML parsing
+PyYAML==6.0.3
 
-# XML parsing - CVE-2021-43818
-lxml==4.7.1
+# XML parsing
+lxml==6.0.1
 
 # Serialization
-marshmallow==3.14.1
+marshmallow==4.1.0
 
 # Environment variables
-python-dotenv==0.19.2
+python-dotenv==1.1.1
 
 # Cache
-redis==3.5.3
+redis==6.4.0
 
 # Debug toolbar (development)
-django-debug-toolbar==3.2.4
+django-debug-toolbar==6.0.0
 
 # Celery for async tasks
-celery==5.2.3
+celery==5.5.3
 
-# URL handling - CVE-2021-33503
-urllib3==1.26.8
+# URL handling
+urllib3==2.5.0
 
-# Old paramiko - CVE-2022-24302
-paramiko==2.9.2
+# SSH
+paramiko==4.0.0
 
-# Old markupsafe - CVE-2021-23727
-MarkupSafe==1.1.1
+# Markup safety
+MarkupSafe==3.0.2
